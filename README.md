@@ -11,5 +11,5 @@ to choose wrong, and wrote a trie from scratch only to realize that it was all f
 Day 6 part 2 was interesting. My solution from part 1 worked, but after further
 reflection I realized that it's a quadratic equation. The function is representable
 by distance = x(time-x), and then you just need to find the roots of the function
-and multiply between them together. Luckily, the input is small enough that you
+and multiply everything between them together. Luckily, the input is small enough that you
 can just brute force it.
