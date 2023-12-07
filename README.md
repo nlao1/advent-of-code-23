@@ -13,3 +13,9 @@ reflection I realized that it's a quadratic equation. The function is representa
 by distance = x(time-x), and then you just need to find the roots of the function
 and multiply everything between them together. Luckily, the input is small enough that you
 can just brute force it.
+
+# Day 7
+
+I can describe my code for today in 1 word: bad. What would have been better
+would be to make a hand class and to test a bunch of cases classifying hands.
+I did not give myself enough room to debug originally which led to a lot of time lost.
