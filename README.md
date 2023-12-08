@@ -19,3 +19,8 @@ can just brute force it.
 I can describe my code for today in 1 word: bad. What would have been better
 would be to make a hand class and to test a bunch of cases classifying hands.
 I did not give myself enough room to debug originally which led to a lot of time lost.
+
+# Day 8
+
+Not a fan of this one. Requires a decent amount of math knowledge and I don't like the fact that
+the input is rigged so that its solvable by LCM.
