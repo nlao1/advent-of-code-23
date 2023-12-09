@@ -19,11 +19,7 @@ def compute_next_value(history) -> int:
 
 
 def sum_of_extrapolated_values(histories):
-    sum = 0
-    for history in histories:
-        next_value = compute_next_value(history)
-        sum += next_value
-    return sum
+    return sum(compute_next_value(history) for history in histories)
 
 
 def part1_solution(filename):
