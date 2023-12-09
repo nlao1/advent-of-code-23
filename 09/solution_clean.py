@@ -10,6 +10,8 @@ def compute_next_value(history) -> int:
     """
     A history is a sequence of some kind defined in the problem.
     """
+    # you can shortcut this by 1 call if you make the base case just when the
+    # differences are all equal
     if all(x == 0 for x in history):
         return 0
     differences = get_difference_list(history)
