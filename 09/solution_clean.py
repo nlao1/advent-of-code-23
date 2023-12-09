@@ -28,7 +28,8 @@ def part1_solution(filename):
 
 def part2_solution(filename):
     histories = parse.parse_input(filename)
-    reversed_histories = list(map(lambda l: list(reversed(l)), histories))
+    # reversed_histories = list(map(lambda l: list(reversed(l)), histories))
+    reversed_histories = [l[::-1] for l in histories]
     return sum_of_extrapolated_values(reversed_histories)
 
 
